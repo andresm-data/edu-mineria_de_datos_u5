@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herramientas de Minería de Datos | Análisis Comparativo</title>
+  <meta name="description" content="Análisis comparativo de la eficiencia de WEKA, KNIME, Orange, RapidMiner, Python y R para minería de datos en contexto académico y organizacional.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark">MD</span>
+        <span class="brand-copy">
+          <strong>Minería de Datos</strong>
+          <span>Unidad 5 · Herramientas de implementación</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#contexto">Contexto</a>
+        <a href="#comparativa">Cuadro comparativo</a>
+        <a href="#analisis">Análisis</a>
+        <a href="#empresas">Empresas</a>
+        <a href="#creditos">Créditos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Actividad · Unidad 5</p>
+          <h1>Análisis de la eficiencia de herramientas para minería de datos</h1>
+          <p class="lede">
+            Esta página compara WEKA, KNIME, Orange, RapidMiner, Python y R a partir de sus
+            características técnicas, facilidad de uso, alcance metodológico y valor práctico en
+            organizaciones reales.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#comparativa">Ver cuadro comparativo</a>
+            <a class="button secondary" href="#empresas">Relacionar con empresas</a>
+          </div>
+          <ul class="hero-metrics" aria-label="Resumen rápido">
+            <li>
+              <strong>6</strong>
+              <span>herramientas evaluadas</span>
+            </li>
+            <li>
+              <strong>30</strong>
+              <span>casos empresariales listados</span>
+            </li>
+            <li>
+              <strong>1</strong>
+              <span>landing estática para despliegue</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="context-section" id="contexto">
+        <div class="section-heading">
+          <p class="eyebrow">Base conceptual</p>
+          <h2>La guía de la unidad vincula estas herramientas con CRISP-DM</h2>
+        </div>
+        <div class="context-layout">
+          <article class="glass-card narrative-card">
+            <p>
+              El PDF de la unidad presenta la metodología CRISP-DM como marco para comprender el
+              negocio, analizar los datos, preparar la información, modelar, evaluar y desplegar resultados.
+              A partir de esa guía, esta landing compara la eficiencia de cada herramienta según la facilidad
+              con la que soporta esas fases dentro de proyectos reales.
+            </p>
+            <p>
+              RapidMiner, WEKA, Orange y KNIME aparecen de forma explícita en la guía. Python y R se integran
+              en la comparación como ecosistemas de trabajo altamente usados en analítica y ciencia de datos,
+              para completar la visión actual del mercado y responder al alcance del ejercicio.
+            </p>
+          </article>
+          <article class="glass-card process-card">
+            <h3>Fases CRISP-DM consideradas</h3>
+            <ol class="phase-list">
+              <li>Comprensión del negocio</li>
+              <li>Comprensión de los datos</li>
+              <li>Preparación de los datos</li>
+              <li>Modelado</li>
+              <li>Evaluación</li>
+              <li>Despliegue</li>
+            </ol>
+            <p class="small-note">
+              Criterio de eficiencia usado en esta página: equilibrio entre curva de aprendizaje, velocidad de trabajo,
+              capacidad analítica, integración técnica y escalabilidad organizacional.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="tools-section" aria-labelledby="tools-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Lectura rápida</p>
+          <h2 id="tools-title">Perfiles sintéticos de las herramientas</h2>
+        </div>
+        <div class="tool-grid" id="toolGrid">
+          <article class="tool-card" data-tool="rapidminer">
+            <span class="tool-pill">RapidMiner</span>
+            <h3>Visual, guiado y orientado a productividad</h3>
+            <p>Muy eficiente para prototipos rápidos, flujos drag-and-drop y validación de modelos con poca fricción técnica.</p>
+          </article>
+          <article class="tool-card" data-tool="weka">
+            <span class="tool-pill">WEKA</span>
+            <h3>Académico, clásico y didáctico</h3>
+            <p>Destaca en aprendizaje, experimentación y pruebas con algoritmos tradicionales de minería de datos.</p>
+          </article>
+          <article class="tool-card" data-tool="orange">
+            <span class="tool-pill">Orange</span>
+            <h3>Interactividad visual y exploración</h3>
+            <p>Resulta eficiente para descubrimiento temprano de patrones, enseñanza y visualización inmediata.</p>
+          </article>
+          <article class="tool-card" data-tool="knime">
+            <span class="tool-pill">KNIME</span>
+            <h3>Flujos robustos y automatización empresarial</h3>
+            <p>Ofrece gran valor cuando se necesita orquestar procesos reproducibles, integraciones y analítica industrial.</p>
+          </article>
+          <article class="tool-card" data-tool="python">
+            <span class="tool-pill">Python</span>
+            <h3>Ecosistema flexible y dominante</h3>
+            <p>Es altamente eficiente cuando se requiere personalización, automatización avanzada y despliegue moderno.</p>
+          </article>
+          <article class="tool-card" data-tool="r">
+            <span class="tool-pill">R</span>
+            <h3>Profundidad estadística y análisis especializado</h3>
+            <p>Brilla en contextos donde el rigor estadístico, la investigación y la visualización analítica son centrales.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="comparison-section" id="comparativa">
+        <div class="section-heading compact">
+          <p class="eyebrow">Cuadro comparativo</p>
+          <h2>Comparación de eficiencia por características</h2>
+        </div>
+
+        <div class="filter-bar" role="toolbar" aria-label="Filtrar resaltado de herramienta">
+          <button class="filter-chip is-active" type="button" data-filter="all">Todas</button>
+          <button class="filter-chip" type="button" data-filter="rapidminer">RapidMiner</button>
+          <button class="filter-chip" type="button" data-filter="weka">WEKA</button>
+          <button class="filter-chip" type="button" data-filter="orange">Orange</button>
+          <button class="filter-chip" type="button" data-filter="knime">KNIME</button>
+          <button class="filter-chip" type="button" data-filter="python">Python</button>
+          <button class="filter-chip" type="button" data-filter="r">R</button>
+        </div>
+
+        <div class="table-wrap">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Herramienta</th>
+                <th>Tipo</th>
+                <th>Fortaleza principal</th>
+                <th>Curva de aprendizaje</th>
+                <th>Automatización</th>
+                <th>Visualización</th>
+                <th>Escalabilidad</th>
+                <th>Licencia / costo</th>
+                <th>Mejor uso</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-tool="rapidminer">
+                <th>RapidMiner</th>
+                <td>Plataforma visual</td>
+                <td>Construcción rápida de flujos analíticos</td>
+                <td>Media-baja</td>
+                <td>Alta en flujos internos</td>
+                <td>Alta</td>
+                <td>Media-alta</td>
+                <td>Modelo mixto, con opciones educativas</td>
+                <td>Prototipado, validación y analítica aplicada</td>
+              </tr>
+              <tr data-tool="weka">
+                <th>WEKA</th>
+                <td>Suite académica</td>
+                <td>Experimentación con algoritmos clásicos</td>
+                <td>Media</td>
+                <td>Media</td>
+                <td>Media</td>
+                <td>Media</td>
+                <td>Software libre GPL</td>
+                <td>Aprendizaje, pruebas y minería tradicional</td>
+              </tr>
+              <tr data-tool="orange">
+                <th>Orange</th>
+                <td>Plataforma visual</td>
+                <td>Exploración interactiva de datos</td>
+                <td>Baja</td>
+                <td>Media</td>
+                <td>Muy alta</td>
+                <td>Media</td>
+                <td>Software libre GPL</td>
+                <td>Docencia, exploración y analítica explicativa</td>
+              </tr>
+              <tr data-tool="knime">
+                <th>KNIME</th>
+                <td>Plataforma de workflows</td>
+                <td>Integración, trazabilidad y reutilización</td>
+                <td>Media</td>
+                <td>Alta</td>
+                <td>Alta</td>
+                <td>Alta</td>
+                <td>Código abierto con servicios empresariales</td>
+                <td>Procesos repetibles y analítica industrial</td>
+              </tr>
+              <tr data-tool="python">
+                <th>Python</th>
+                <td>Lenguaje y ecosistema</td>
+                <td>Flexibilidad y despliegue end-to-end</td>
+                <td>Media-alta</td>
+                <td>Muy alta</td>
+                <td>Alta</td>
+                <td>Muy alta</td>
+                <td>Libre y abierto</td>
+                <td>ML productivo, automatización y MLOps</td>
+              </tr>
+              <tr data-tool="r">
+                <th>R</th>
+                <td>Lenguaje y ecosistema</td>
+                <td>Análisis estadístico profundo</td>
+                <td>Media-alta</td>
+                <td>Alta</td>
+                <td>Alta</td>
+                <td>Media-alta</td>
+                <td>Libre y abierto</td>
+                <td>Investigación, estadística y reporting</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="analysis-section" id="analisis">
+        <div class="section-heading compact">
+          <p class="eyebrow">Interpretación</p>
+          <h2>Lectura crítica de la eficiencia</h2>
+        </div>
+        <div class="analysis-grid">
+          <article class="analysis-card spotlight">
+            <h3>Herramientas visuales</h3>
+            <p>
+              RapidMiner, Orange y KNIME son eficientes cuando el objetivo es acelerar la ejecución del proyecto,
+              reducir barreras técnicas iniciales y facilitar la colaboración entre perfiles no estrictamente programadores.
+              KNIME sobresale en trazabilidad y escalamiento; RapidMiner en rapidez de prototipado; Orange en visualización pedagógica.
+            </p>
+          </article>
+          <article class="analysis-card">
+            <h3>Entornos académicos y experimentales</h3>
+            <p>
+              WEKA conserva gran valor en contextos universitarios y de experimentación porque concentra algoritmos clásicos,
+              permite comparar enfoques y ayuda a comprender el comportamiento de modelos sin exigir un stack complejo.
+            </p>
+          </article>
+          <article class="analysis-card">
+            <h3>Ecosistemas de programación</h3>
+            <p>
+              Python es la alternativa más versátil para organizaciones que requieren pasar del análisis al despliegue.
+              R ofrece ventaja cuando la precisión estadística, el análisis inferencial y la generación de reportes reproducibles
+              son más importantes que la estandarización de productos de software.
+            </p>
+          </article>
+          <article class="analysis-card verdict">
+            <h3>Conclusión operativa</h3>
+            <p>
+              No existe una herramienta universalmente superior. La eficiencia depende del perfil del equipo, el tiempo disponible,
+              el nivel de automatización esperado y el tipo de valor que la organización necesita generar con los datos.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="enterprise-section" id="empresas">
+        <div class="section-heading compact">
+          <p class="eyebrow">Aplicación organizacional</p>
+          <h2>Relación de cada herramienta con empresas del sector real</h2>
+        </div>
+        <p class="small-note enterprise-note">
+          Nota metodológica: algunos casos corresponden a adopción organizacional amplia y otros a proyectos, áreas o iniciativas específicas documentadas públicamente.
+        </p>
+        <div class="enterprise-list" id="enterpriseList"></div>
+      </section>
+    </main>
+
+    <footer class="footer" id="creditos">
+      <div class="footer-brand">
+        <img src="assets/ucatolica.jpg" alt="Logo de la Universidad Católica de Colombia">
+      </div>
+      <div class="footer-details">
+        <p class="eyebrow">Información académica</p>
+        <div class="footer-meta" role="list" aria-label="Datos académicos">
+          <div class="footer-meta-item" role="listitem">
+            <span class="footer-label">Estudiante</span>
+            <strong>Richard Andrés Malambo</strong>
+          </div>
+          <div class="footer-meta-item" role="listitem">
+            <span class="footer-label">Asignatura</span>
+            <strong>Minería de Datos</strong>
+          </div>
+          <div class="footer-meta-item" role="listitem">
+            <span class="footer-label">Universidad</span>
+            <strong>Universidad Católica de Colombia</strong>
+          </div>
+          <div class="footer-meta-item" role="listitem">
+            <span class="footer-label">Fecha</span>
+            <strong>9 de mayo de 2026</strong>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
